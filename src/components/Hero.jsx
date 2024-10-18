@@ -40,7 +40,7 @@ const Hero = () => {
               variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              href="../contacts/Mohamed Sameh Mahmoud.pdf"
+              href="/public/Mohamed Sameh Mahmoud.pdf"
               download
             >
               <button className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500  bg-clip-text text-2xl tracking-tight text-transparent ">
