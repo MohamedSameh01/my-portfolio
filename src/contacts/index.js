@@ -12,7 +12,7 @@ You can find further details about my skills and experience in my attached resum
 Thank you for your consideration, and I look forward to the opportunity to contribute to your team.
 `;
 
-export const HERO_CONTENT = `I'm poised to propel your company towards greater success by turning your business concepts into functional web applications. Specializing in Web Development using React JS, I also possess a solid understanding of various JavaScript frameworks, positioning me to deliver high-quality solutions efficiently.`;
+export const HERO_CONTENT = `I'm  poised to propel your company towards greater success by turning your business concepts into functional web applications. Specializing in Web Development using React JS, I also possess a solid understanding of various JavaScript frameworks, positioning me to deliver high-quality solutions efficiently.`;
 
 export const EXPERIENCES = [
   {
