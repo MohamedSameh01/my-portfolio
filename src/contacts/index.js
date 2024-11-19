@@ -1,11 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-
-
-
-
 
 export const ABOUT_TEXT = `I am a dedicated frontend developer with a strong focus on building responsive, dynamic web applications. With nearly a year of professional experience in remote and freelance projects, I have developed a solid foundation in modern web development, specializing in React.js and JavaScript frameworks.
 
@@ -16,13 +12,7 @@ You can find further details about my skills and experience in my attached resum
 Thank you for your consideration, and I look forward to the opportunity to contribute to your team.
 `;
 
-
-
-
 export const HERO_CONTENT = `I'm poised to propel your company towards greater success by turning your business concepts into functional web applications. Specializing in Web Development using React JS, I also possess a solid understanding of various JavaScript frameworks, positioning me to deliver high-quality solutions efficiently.`;
-
-
-
 
 export const EXPERIENCES = [
   {
@@ -49,43 +39,60 @@ export const EXPERIENCES = [
   },
 ];
 
-
-
-
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Wangen Pizza",
     image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    description: `•Designed and developed a front-end for a Swiss pizza restaurant website using React.js
+•Implemented features for online ordering, table reservation, and contact form submission.
+•Integrated a shopping cart and facilitated local payment via Twint.
+•Utilized Redux Toolkit for efficient state management and SwiperJS for creating sliders.
+•Streamlined user experience with React Router DOM for seamless navigation. (Optional) Briefly mention the Stripe
+integration and removal upon client request, showcasing your adaptability.
+Everything in the project was done based on the client's wishes, even the programing languages used.`,
+    technologies: [
+      "React",
+      "Redux-Toolkit",
+      "React-Rouer-Dom",
+      "Framer-Motion",
+      "React-Icons",
+    ],
+    url: "https://wagon-pizza.vercel.app/",
   },
   {
-    title: "Task Management App",
+    title: "Gosto",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    description: `•Developed Gosto, a React.js e-commerce web app for phone mockups.
+•Implemented user-friendly search, cart, & filtering for a seamless shopping experience.
+•Built with React Router, Redux Toolkit & Sass for smooth navigation & management.
+•Offers trendy phone mockups with a focus on variety.`,
+    technologies: [
+      "React",
+      "Redux-Toolkit",
+      "React-Rouer-Dom",
+      "Framer-Motion",
+    ],
+    url: "https://gosto-eight.vercel.app/",
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["React", "tailwind-CSS", "Framer-Motion"],
+    url: "https://mohamed-sameh-murex.vercel.app/",
   },
   {
-    title: "Blogging Platform",
+    title: "Insaniah",
     image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    description: `•Built a charity web app (HTML, CSS, JS) to gather donations for global communities.
+•Designed & developed user-friendly interface for promoting social impact & generosity.
+•Showcased web development skills for a cause I care about.
+"Everything in the project was done based on the client's wishes, even the programing languages used.`,
+    technologies: ["HTML", "CSS", "js"],
+    url: "https://insaniah.vercel.app/",
   },
 ];
-
-
-
-
 
 export const CONTACT = {
   address: "Egypt Cairo",
