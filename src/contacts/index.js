@@ -57,7 +57,7 @@ Everything in the project was done based on the client's wishes, even the progra
       "Framer-Motion",
       "React-Icons",
     ],
-    url: "https://wagon-pizza.vercel.app/",
+    url: "https://www.pizzawangen.ch/",
   },
   {
     title: "Gosto",
