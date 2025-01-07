@@ -40,11 +40,12 @@ const Hero = () => {
               variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              href="/Mohamed Sameh Mahmoud Khalil.pdf"
-              download
+              href="https://drive.google.com/file/d/14i9q6jltpcLmlXWKP5lhcQYp-15WjW6R/view"
+              target="_blank" // Open in new tab
+              rel="noopener noreferrer" // Security best practice
             >
               <button className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500  bg-clip-text text-2xl tracking-tight text-transparent ">
-                Download cv
+                Open cv
               </button>
             </motion.a>
           </div>
@@ -61,6 +62,8 @@ const Hero = () => {
               className="rounded-3xl"
               src={mohamedSamehProfile}
               alt="profile image"
+              target="_blank"
+              rel="noopener noreferrer"
             />
           </div>
         </div>
