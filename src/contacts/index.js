@@ -95,7 +95,7 @@ Everything in the project was done based on the client's wishes, even the progra
 ];
 
 export const CONTACT = {
-  address: "Saudia Arabia ,Gizan",
+  address: "Saudia Arabia",
   phoneNo: "+966 53 293 7544",
   email: "ms7100100@gmail.com",
 };
